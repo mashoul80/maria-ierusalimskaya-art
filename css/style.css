@@ -1,0 +1,347 @@
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+*/
+
+header {
+    padding: 15%;
+    background-color:darkgray;
+    background-image: url(../images/etching_bull2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    color: #ffffff;
+    
+}
+nav ul {
+   display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 5rem;
+    position:fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+/*
+nav ul a {
+    padding: 50px 15px 7px 15px;
+}
+ 
+*/
+nav ul li a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul a:visited {
+    color: #ffffff;
+}
+
+nav ul a:hover {
+    color: #ff9900;
+}
+
+h1 {
+    color: #e6e6e6;
+    width: 30%;
+    font-size: 2rem;
+}
+
+#home {
+    width: 80%;
+/*    height: 100%;*/
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#home ul {
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+/*    height: 100%;*/
+    width: 100%;
+    list-style-type: none;
+/*
+    margin: 3%;
+    padding: 3%;
+    
+*/
+    
+    
+}
+
+#home ul a:link, a:visited {
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+/*    display: inline-block;*/
+    padding: 15px;
+    background-color: #ffffff;
+    height:18rem;
+    width: 18rem;
+    margin: 11px;
+    color: transparent;
+    text-align: center;
+
+/*    color:#000000;*/
+
+}
+#home ul li a:hover{
+    background-blend-mode: overlay;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+.portrait {
+    background-image: url(../images/portrait_40min.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center top;
+    
+}
+
+
+
+
+.figure {
+    background-image: url(../images/figure_lyingdown.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+.illustration {
+    background-image: url(../images/mermaids.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.sketch {
+    background-image: url(../images/figure_sketch.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.painting {
+    background-image: url(../images/profile_oil.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.prints {
+    background-image: url(../images/etching_bull.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.photograph {
+    background-image: url(../images/custom_p.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+.nature {
+    background-image: url(../images/nature_watercolor.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+footer {
+    
+  position:inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+/*
+footer {
+    display:block;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top:3rem;
+   
+}
+*/
+.fab {
+    text-decoration: none;
+    color: grey;
+    width: 10%;
+    font-size: 2rem;
+    
+    
+}
+.far {
+    text-decoration: none;
+    color: grey;
+    font-size: 2rem;
+}
+.fab:hover {
+    color:#ff9900;
+}
+.far:hover {
+    color:#ff9900;
+}
+
+/*form css below*/
+
+
+
+form {
+/*height:60%;*/
+     margin-top: 5rem;
+        
+}
+
+h2 {
+    font-weight: 200;
+    text-align: left;
+        
+}
+.container {
+    width:100%;
+    text-align: left;
+    margin-top: 15rem;
+    height:90%;
+}
+.form-wrapper{
+    margin: 0 26%;
+}
+input[type=text], select, textarea {
+    width:100%;
+    border: solid 1px #bfbfbf;
+    padding: 0.5rem;
+    
+    
+}
+input[type=email], select, textarea {
+    width:100%;
+    border: solid 1px #bfbfbf;
+    padding: 0.5rem;
+}
+
+input[type=submit] {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 70px;
+  border: none;
+  cursor: pointer;
+    font-size: 1rem;
+    
+}
+    
+input[type=submit]:hover {
+    background-color: #e68a00;
+}
+input, textarea{
+    padding-left: 10px;
+    
+}
+
+/*portrait gallery css*/
+
+
+.column {
+/*    margin-top: 2rem;*/
+/*    margin-bottom: 1rem;*/
+    width:10rem;
+    height:auto;
+    
+}
+
+
+/* Style the images inside the grid */
+.column img {
+  cursor: pointer; 
+   
+}
+
+img {
+    padding:0.7rem;
+}
+
+.two {
+    margin-top:6rem;
+}
+
+
+/* Clear floats after the columns */
+.row {
+    
+    padding: 10px;
+    margin: 20px ;
+    margin-right: 30rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width:auto;
+/*    height: 100%;*/
+
+   
+    
+}
+/*
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+*/
+
+/* The expanding image container */
+.expanded {
+
+  display: block;
+    width: 50rem;
+    text-align: center;
+    margin-top: 8rem;
+    color:black;
+    
+}
+
+main {
+    display:flex;
+}
+
