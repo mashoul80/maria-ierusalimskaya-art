@@ -35,7 +35,6 @@
         
         <div class="expanded">
         <img id="expandedImg" style="width:80%">
-        <div id="imgtext"></div>
 </div>
         
         </section>
@@ -44,34 +43,34 @@
         
         <div class="row">
   <div class="column">
-    <img src="images/portrait_40min.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_40min.jpg" style="width:100%" onclick="myFunction(this);">
      </div>
   <div class="column">
-    <img src="images/portrait_watercolor.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_watercolor.jpg"  style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="images/portrait_profile.JPG" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_profile.JPG" style="width:100%" onclick="myFunction(this);">
   </div>
   <div class="column">
-    <img src="images/custom_p.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+    <img src="images/custom_p.jpg"  style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/portrait_of_amodel.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_of_amodel.jpg"  style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/portrait_from_behind.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_from_behind.jpg"  style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/portrait_of_agirl1.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_of_agirl1.jpg" style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/portrait_of_agirl2.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/portrait_of_agirl2.jpg"  style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/selfportrait.JPG" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/selfportrait.JPG" style="width:100%" onclick="myFunction(this);">
   </div>
             <div class="column">
-    <img src="images/Yassi.JPG" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+    <img src="images/Yassi.JPG" style="width:100%" onclick="myFunction(this);">
   </div>
             
 </div>
@@ -82,10 +81,8 @@
 <script>
 function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
-//  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-//  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
+ expandImg.src = imgs.src;
+ expandImg.parentElement.style.display = "block";
 }
 </script>
 
