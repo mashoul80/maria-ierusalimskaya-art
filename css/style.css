@@ -12,6 +12,9 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    width:100%;
+}
 header {
     padding: 15%;
     background-color:darkgray;
@@ -59,15 +62,18 @@ h1 {
     font-size: 2rem;
 }
 
+
 #home {
     width: 80%;
     padding: 10px;
     margin: 20px auto;
+    
 }
 
 #home ul {
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
+    flex-direction:row;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -84,8 +90,8 @@ h1 {
     align-items: center;
     padding: 15px;
     background-color: #ffffff;
-    height:18rem;
-    width: 18rem;
+    height:19rem;
+    width: 19rem;
     margin: 11px;
     color: transparent;
     text-align: center;
