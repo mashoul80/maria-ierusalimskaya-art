@@ -12,19 +12,26 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    padding-bottom:65px;
+}
+
 header {
     padding: 15%;
-    background-color:darkgray;
+    background-color:#A9A9A9;
     background-image: url(../images/etching_bull2.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center center;
     color: #ffffff;
-    
-}
+    }
+
 .name a {
     display:inline-block;
 }
+
+/*Hidden dropdown menu */
+
 .dropdown {
     display:none;
 }
@@ -66,11 +73,11 @@ nav ul a:hover {
 h1 {
     color: #e6e6e6;
     font-size: 2rem;
-    /*text-align: center;*/
-    
-   
 }
-
+ h1:hover {
+     color:#ff9900;
+ }
+ 
 
 #home {
     width: 80%;
@@ -85,9 +92,6 @@ h1 {
     flex-wrap: wrap;
     width: 100%;
     list-style-type: none;
-
-    
-    
 }
 
 #home ul a:link, a:visited {
@@ -97,8 +101,8 @@ h1 {
     align-items: center;
     padding: 15px;
     background-color: #ffffff;
-    height:18rem;
-    width: 18rem;
+    height:19rem;
+    width: 19rem;
     margin: 11px;
     color: transparent;
     text-align: center;
@@ -110,6 +114,8 @@ h1 {
     background-color: rgba(0,0,0,.5);
     
 }
+
+/* Images for Links */
 
 .portrait {
     background-image: url(../images/portrait_40min.jpg);
@@ -172,20 +178,33 @@ h1 {
     
 }
 
+/* Line before the Footer */
+
+hr {
+    display: block;
+  margin:2rem auto;
+  border-style:solid;
+  border-width: 0.05em;
+  text-align:center;
+  width:100%;
+  border-color:#ff9900;
+}
+
 footer {
+    display:block;
+    position:relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    text-align: center;
     
-  position:inherit;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
 }
 
 
 .fab {
     text-decoration: none;
-    color: grey;
+    color: #808080;
     width: 10%;
     font-size: 2rem;
     
@@ -193,7 +212,7 @@ footer {
 }
 .far {
     text-decoration: none;
-    color: grey;
+    color: #808080;
     font-size: 2rem;
 }
 .fab:hover {
@@ -221,7 +240,7 @@ h2 {
     width:100%;
     text-align: left;
     margin-top: 15rem;
-    height:90%;
+    
 }
 .form-wrapper{
     margin: 0 26%;
@@ -240,13 +259,13 @@ input[type=email], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #ff9900;
-  color: white;
-  padding: 10px 70px;
-  border: none;
-  cursor: pointer;
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+    cursor: pointer;
     font-size: 1rem;
-    
+    width:100%;
 }
     
 input[type=submit]:hover {
@@ -281,8 +300,8 @@ img {
 
 
 /* Clear floats after the columns */
+
 .row {
-    
     padding: 10px;
     margin: 20px ;
     display:flex;
@@ -292,17 +311,20 @@ img {
 }
 
 /* The expanding image container */
-.expanded {
 
-  display: block;
+.expanded {
+    display: block;
     width: 50rem;
+    height:auto;
     text-align: center;
     margin-top: 8rem;
-    color:black;
+    margin-left:0.83em;
+    color:#000000;
     
 }
 main {
     display:flex;
+    min-height:100%;
 }
 
 #about  {
@@ -317,7 +339,7 @@ main {
     
 }
 #about p {
-    width:500px;
+    width:600px;
     padding: 1rem;
     line-height: 1.8;
     word-spacing: 0.2rem;
@@ -360,28 +382,24 @@ main {
         margin-top:6px;
         cursor:pointer;
         background-color: transparent;
-        color:white;
+        color:#FFFFFF;
         font-size: 14px;
-        
-        
-    }
+     }
     
     .dropdown-content {
         display:none;
         position:absolute;
-        color:black;
+        color:#000000;
         background-color:#f9f9f9;
         z-index:1;
-        
-        
-    }
+         }
     
     .dropdown-content a{
         padding: 12px 16px;
         text-decoration: none;
         display: block;
         text-align:center;
-        background-color:black;
+        background-color:#000000;
     }
     
     .dropdown-content a:hover {
@@ -391,17 +409,9 @@ main {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  color:black;
+  color:#000000;
 }
 
-
-/*.dropdown:hover .dropbtn {*/
-/*  background-color: #3e8e41;*/
-/*}*/
-
-    
-    
-    }
     .expanded {
         display:none;
         
@@ -417,13 +427,9 @@ main {
     height: 7rem;
     }
     
-    /*nav ul li a:link {*/
-    /*    font-size:6px;*/
-        
-    /*}*/
-    
     header {
         padding:25%;
+        display:none;
     }
     .row {
         width:80%;
@@ -440,3 +446,5 @@ main {
         font-size: 12px;
         width:300px;
     }
+    
+    
