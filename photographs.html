@@ -49,7 +49,7 @@
         
         <div class="expanded">
         <img id="expandedImg" style="width:80%">
-        <img src="images/CustomP_Dar.jpg" style="width:100%">
+        <img id="default" src="images/CustomP_Dar.jpg" style="width:80%;margin-top:-1.5rem">
 </div>
         
         </section>
@@ -99,6 +99,7 @@ function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
  expandImg.src = imgs.src;
  expandImg.parentElement.style.display = "block";
+ document.querySelector("#default").style.display="none";
 }
 </script>
 
