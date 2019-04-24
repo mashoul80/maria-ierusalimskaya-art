@@ -440,5 +440,7 @@ main {
   -webkit-appearance: none;
   -webkit-border-radius: 0;
 }
-    
+    #ContactMe {
+        text-align:center;
+    }
 }    
