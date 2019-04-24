@@ -1,0 +1,134 @@
+<! DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Maria Ierusalimskaya</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    
+    </head>
+    
+    <body>
+    <nav>
+        
+    <ul>
+           
+        <div class="name">
+           
+   <a href="index.html"> <h1>MARIA IERUSALIMSKAYA</h1></a> 
+     
+        </div>
+        
+        <div class="dropdown">
+  <button class="dropbtn">MENU</button>
+  <div class="dropdown-content">
+  <a href="index.html">HOME</a>
+ <a href="about.html">ABOUT</a>
+  <a href="https://www.etsy.com/shop/MariaPencilArt?ref=search_shop_redirect">ETSY SHOP</a>
+  <a href="contact.html">CONTACT</a>
+  </div>
+</div>
+        
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="https://www.etsy.com/shop/MariaPencilArt?ref=search_shop_redirect">ETSY</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+            
+        </ul>
+            
+        </nav>
+       <!-- Gallery section below -->
+       
+        <main>
+        <section class="one">
+        
+        <div class="expanded">
+        <img id="expandedImg" style="width:80%">
+        <img id="default" src="images/figure_sketch.jpg" style="width:80%;margin-top:-1.5rem">
+</div>
+        
+        </section>
+        
+        <section class="two">
+        
+        <div class="row">
+            <div class="column">
+    <img src="images/figure_sketch.jpg" style="width:100%" onclick="myFunction(this);">
+     </div>
+  <div class="column">
+    <img src="images/sketcher_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+     </div>
+  <div class="column">
+    <img src="images/verazanno-compressor.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/yumemi_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/raised_hands_sketch-compressor.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/jazzage_yellow_sketch-compressor.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/jazzage_stripes_sketch-compressor.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/jazzage_pearls_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/duck_sketch-compressor.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/down_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+            <div class="column">
+    <img src="images/trans_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/shadow_figure_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/manfigure_sketch-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/back_sketch.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/4women_sketch.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/Frigid-New-York-1-compressor.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+            
+</div>
+
+        </section>
+            
+            </main>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+ expandImg.src = imgs.src;
+ expandImg.parentElement.style.display = "block";
+ document.querySelector("#default").style.display="none";
+}
+</script>
+
+
+        <footer>
+            <a href="https://www.instagram.com/mashoul_80/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:maria.ierusalim@gmail.com"><i class="far fa-envelope"></i></a>
+            <a href="https://www.facebook.com/mariapencilart/" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+        </footer>
+    
+    
+    </body>
+
+</html>
